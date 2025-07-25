@@ -13,7 +13,7 @@ GrowEasy AI is a consulting agent designed specifically for small businesses to 
 - Interactive web dashboard.
 
 ## Setup
-1. Clone the repo: `git clone https://github.com/yourusername/GrowEasy-AI.git`
+1. Clone the repo: `git clone https://github.com/yashhooda1/GrowEasy-AI.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the dashboard: `python src/dashboard.py`
 
