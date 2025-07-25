@@ -18,6 +18,7 @@ jobs:
       - name: Debug directory structure
         run: ls -R
       - name: Run analysis
+        working-directory: ./  # Ensure script runs from repository root
         run: python src/report_generator.py
       - name: Commit reports
         run: |
