@@ -5,9 +5,9 @@ from datetime import datetime
 from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image, PageBreak
 from reportlab.lib.styles import getSampleStyleSheet
-from src.data_ingestion import DataIngestion
-from src.analysis_engine import AnalysisEngine
-from src.explainability import Explainability
+from .data_ingestion import DataIngestion
+from .analysis_engine import AnalysisEngine
+from .explainability import Explainability
 
 class ReportGenerator:
     def __init__(self, data_path, output_dir="reports"):
